@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+body {
+  background-color: #e9ecef;
+  font-family: "Nova Square", cursive !important;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main_section {
+  height: 85vh;
+}
+
+.questions {
+  margin-top: 4rem;
+}
+
+.btn:hover {
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.fa-crown {
+  margin-left: 10px;
+  font-size: 1.4rem;
+}
+
+#progress-bar {
+  width: 9rem;
+  height: 1.7rem;
+  border: solid #0bdf24;
+  margin-top: 1.5rem;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#progress-bar-full {
+  height: 100%;
+  background-color: #0bdf24;
+  width: 100%;
+}
+
+#highScoresList {
+  list-style: none;
+  margin-bottom: 4rem;
+}
+
+.high-score {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+/* End Page CSS */
