@@ -54,14 +54,21 @@ body {
   width: 100%;
 }
 
-#highScoresList {
-  list-style: none;
-  margin-bottom: 4rem;
-}
-
-.high-score {
-  font-size: 2.8rem;
-  margin-bottom: 0.5rem;
-}
-
 /* End Page CSS */
+.end-page {
+  height: 100vh;
+}
+
+input {
+  font-size: 1.8rem;
+  padding: 2.5px;
+}
+
+#username {
+  width: 50%;
+  outline: none;
+}
+
+.fa-home, .fa-play-circle {
+  margin-left: 0.3rem;
+}

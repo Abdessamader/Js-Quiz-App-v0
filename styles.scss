@@ -52,58 +52,34 @@ body {
   width: 100%;
   
 }
-#highScoresList {
-  list-style: none;
-  margin-bottom: 4rem;
-}
+// #highScoresList {
+//   list-style: none;
+//   margin-bottom: 4rem;
+// }
 
-.high-score {
-  font-size: 2.8rem;
-  margin-bottom: 0.5rem;
+// .high-score {
+//   font-size: 2.8rem;
+//   margin-bottom: 0.5rem;
   
-}
+// }
 
 /* End Page CSS */
 
-//  .end-form-container {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   max-width: 30rem;
-//   width: 100%;
-// }
+.end-page{
+  height: 100vh;
+}
 
-// input {
-//   font-size: 1.8rem;
-//   margin-bottom: 1rem;
-//   padding: 1.5rem;
-//   width: 20rem;
-//   border: none;
-//   box-shadow: 0 2px 22.5px 0 hsl(180, 100%, 50%, 0.5 );
-// }
+input {
+  font-size: 1.8rem;
+  padding: 2.5px;
+}
 
-// input::placeholder {
-//   color: hsl(221.1, 8.3%, 55.1%);
-// }
+#username {
+  width: 50%;
+  outline: none;
+}
 
-// #username {
-//   margin-bottom: 3rem;
-//   width: 100%;
-//   outline: none;
-// }
 
-// #end-text {
-//   color: hsl(0, 0%, 100%);
-//   font-size: 2.4rem;
-//   text-align: center;
-// }
-
-// #saveScoreBtn {
-//   border: none;
-// }
-
-// .fa-home {
-//   color: hsl(0, 0%, 3.1%);
-//   font-size: 2rem;
-//   margin-left: 1rem;
-// }
+.fa-home , .fa-play-circle{
+  margin-left: 0.3rem;
+}

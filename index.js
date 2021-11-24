@@ -108,7 +108,6 @@ startGame = () => {
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
-
     return window.location.assign("/end.html");
   }
 
@@ -141,7 +140,7 @@ choices.forEach((choice) => {
     const selectedAnswer = selectedChoice.dataset["number"];
     selectedChoice.classList.remove("btn-primary");
 
-    correct.classList.add("btn-success");
+    // correct.classList.add("btn-success");
 
     const isCorrect = selectedAnswer == currentQuestion.answer;
     let classToApply = isCorrect ? "btn-success" : "btn-danger";
